@@ -1,0 +1,63 @@
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/darkbackground.jpeg);
+  background-size: cover;
+}
+* {
+  font-family: sans-serif;
+}
+.top-bar h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+.container {
+  display: flex;
+  margin: 5%;
+}
+.right-side {
+  display: block;
+  margin: 50px;
+}
+#band-logo {
+  width: 100px;
+  height: 100px;
+}
+#front-image {
+  object-fit: cover;
+  margin: 30px;
+  width: 35%;
+  height: auto;
+  border-radius: 75px;
+}
+.text {
+  border-width: thin;
+  text-indent: 5%;
+  line-height: 150%;
+  color: white;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  padding: 30px;
+}
+.links a button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.albums img {
+  display: inline;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
